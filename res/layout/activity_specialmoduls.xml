@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="38dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal" >
+
+            <Button
+                android:id="@+id/foodModulBtn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/food_icon"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/sportModulBtn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/sport_icon"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/linear_layout"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/animals_icon"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/musicModulBtn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/music_icon"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/countriesModulBtn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/countries_icon"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/scienceModulBtn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/sciense_icon2"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
